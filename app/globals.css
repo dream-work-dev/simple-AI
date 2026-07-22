@@ -92,7 +92,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 nav { display: flex; align-items: center; gap: 8px; }
 nav a { padding: 10px 13px; border-radius: 10px; color: #b8bdc8; font-size: 13px; font-weight: 500; transition: color .2s, background .2s; }
 nav a:hover { color: white; background: rgba(117, 135, 255, 0.1); }
-.resume-link { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; color: var(--accent-light); font-size: 13px; font-weight: 700; }
 
 .hero {
   min-height: 100vh;
@@ -236,7 +235,6 @@ footer { padding: 28px max(24px, 5vw); display: flex; align-items: center; justi
 @media (max-width: 680px) {
   html { scroll-padding-top: 84px; }
   .site-header { top: 10px; min-height: 56px; width: calc(100% - 20px); padding-left: 16px; border-radius: 15px; }
-  .resume-link { padding-right: 7px; }
   .hero { min-height: 820px; padding: 130px 20px 70px; }
   h1 { font-size: clamp(50px, 16vw, 76px); }
   .hero-statement { font-size: 28px; }

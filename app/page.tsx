@@ -155,9 +155,6 @@ export default function Home() {
           <a href="#experience">Experience</a>
           <a href="#contact">Contact</a>
         </nav>
-        <a className="resume-link" href="/resume.pdf" target="_blank" rel="noreferrer">
-          Resume <Arrow />
-        </a>
       </header>
 
       <main id="top">
@@ -334,7 +331,7 @@ export default function Home() {
           <h2 id="contact-title">Let&apos;s build something<br /><em>clear and reliable.</em></h2>
           <div className="contact-actions">
             <a className="primary-button" href="mailto:seankuhlman1@gmail.com">
-              seankuhlman1@gmail.com <Arrow />
+              seankuhlman1@gmail.com
             </a>
           </div>
         </section>
