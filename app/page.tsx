@@ -50,7 +50,6 @@ const experience = [
       "Created an AI-assisted compliance research workflow using FastAPI, LangChain, PostgreSQL, and pgvector.",
       "Improve production reliability, SOC 2 readiness, engineering standards, and release confidence through observability, security controls, and technical mentorship.",
     ],
-    stack: ["Python", "FastAPI", "Kafka", "PostgreSQL", "pgvector", "AWS", "Kubernetes", "Datadog"],
   },
   {
     company: "Glean",
@@ -66,7 +65,6 @@ const experience = [
       "Improved search relevance through ranking signals, semantic retrieval, embeddings, and repeatable evaluation practices.",
       "Modernized services on Terraform-managed AWS infrastructure and mentored four engineers through architecture, planning, and career development.",
     ],
-    stack: ["Python", "Go", "Semantic Search", "Embeddings", "OpenAI APIs", "AWS", "Terraform", "Datadog"],
   },
   {
     company: "Tubi",
@@ -82,7 +80,6 @@ const experience = [
       "Implemented asynchronous content workflows with Amazon SNS and SQS and contributed to multi-region operations.",
       "Earlier work included REST APIs for authentication, profiles, preferences, viewing history, and Docker-based delivery workflows.",
     ],
-    stack: ["Node.js", "GraphQL", "Redis", "PostgreSQL", "AWS SQS", "AWS SNS", "Docker"],
   },
   {
     company: "Pingdom",
@@ -98,7 +95,6 @@ const experience = [
       "Optimized rendering for high-volume time-series datasets and interactive monitoring views.",
       "Supported alerting, logging, and troubleshooting workflows for distributed monitoring infrastructure.",
     ],
-    stack: ["React", "TypeScript", "Django", "PostgreSQL", "Webhooks"],
   },
 ];
 
@@ -303,9 +299,6 @@ export default function Home() {
                   <ul>
                     {job.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}
                   </ul>
-                  <div className="tags" aria-label={`${job.company} technologies`}>
-                    {job.stack.map((item) => <span key={item}>{item}</span>)}
-                  </div>
                 </div>
               </article>
             ))}
@@ -343,7 +336,6 @@ export default function Home() {
             <a className="primary-button" href="mailto:seankuhlman1@gmail.com">
               seankuhlman1@gmail.com <Arrow />
             </a>
-            <a className="text-link" href="tel:+19529631004">(952) 963-1004</a>
           </div>
         </section>
       </main>

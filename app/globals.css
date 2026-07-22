@@ -219,8 +219,6 @@ h1 { margin: 0; font-size: clamp(58px, 8.4vw, 112px); line-height: .92; letter-s
 .contact-section { min-height: 620px; padding-top: 150px; padding-bottom: 150px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; background: radial-gradient(circle at 50% 105%, rgba(117,135,255,.27), transparent 58%); }
 .contact-section h2 { margin: 25px 0 46px; font-size: clamp(54px, 7.5vw, 102px); line-height: .92; letter-spacing: -.065em; }
 .contact-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 24px; }
-.text-link { color: #aab0bb; border-bottom: 1px solid #4f5663; font-size: 13px; }
-
 footer { padding: 28px max(24px, 5vw); display: flex; align-items: center; justify-content: space-between; gap: 22px; border-top: 1px solid var(--line); background: #08090b; color: #747b88; font-size: 11px; }
 .footer-links { display: flex; gap: 14px; }
 .footer-links a:hover { color: white; }
